@@ -11,9 +11,7 @@ html{
 .navbar{
     padding: 10px;
     position:fixed;
-    /* background-color: lightgreen; */
     background-color: rgb(254, 254, 254);
-    /* border: 3px solid red; */
     width: 100%;
     height: fit-content;
 }
@@ -40,14 +38,12 @@ html{
 
 /* INTRO */
 .me{
-    /* border: 3px solid black; */
     display: flex;
     flex-direction: row;
     margin-top: 70px;
 }
 
 .me .pic{
-    /* border: 3px solid red; */
     width: 70%;
     display: flex;
     justify-content: center;
@@ -55,7 +51,6 @@ html{
 }
 
 .me .pic img{
-    /* width: 500px; */
     border-radius: 50%;
     height: 500px;
     box-shadow: 0px 0px 30px rgb(0, 255, 0);
@@ -66,17 +61,6 @@ html{
 }
 
 @keyframes magic{
-    /* from{
-        transform: rotate(0deg);
-    }
-    to{
-        transform: rotateX(360deg) translateX(100px);
-    } */
-    /* 0%{transform: rotate(0deg);}
-    25%{transform: rotate(360deg) translateX(120px) scale(1.2); box-shadow: 2px 2px 20px green;}
-    50%{transform: rotate(-360deg) translateX(-100px) scale(0.5);}
-    100%{transform: rotate(-360deg) scale(1);} */
-
     0%{transform: scale(1); box-shadow: 2px 2px 60px red;}
     25%{transform: scale(0.9); box-shadow: 2px 2px 20px yellow;}
     50%{transform: scale(1); box-shadow: 2px 2px 60px green;}
@@ -85,8 +69,6 @@ html{
 }
 
 .me .intro{
-    /* border: 3px solid blue; */
-    /* position: relative; */
     float: right;
     width: 40%;
     text-align: center;
@@ -105,14 +87,11 @@ h1{
     text-decoration: underline;
 }
 .projects{
-    /* border: 3px solid black; */
-    /* margin: 10px; */
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     width: 100%;
     padding: 20px;
-    /* overflow-y: auto; */
 }
 
 .projects .project_card{
@@ -153,20 +132,17 @@ h1{
    text-decoration: none;
    color: rgb(0, 166, 255);
    font-weight: bolder;
-   /* position: relative; */
    top: 17px;
 }
 
 /* DEVELOPER */
 .developer{
-    /* border: 3px solid black; */
     display: flex;
     flex-direction: row;
     margin-top: 25px;
 }
 
 .developer .cv{
-    /* border: 3px solid red; */
     display:flex;
     flex-direction: row;
     justify-content: center;
@@ -205,7 +181,6 @@ h1{
 
 .developer .contact textarea#message{
     padding: 7px;
-    /* font-size: 1.2rem; */
     font-weight: bolder;
     border-radius: 10px;
 }
