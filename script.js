@@ -1,16 +1,4 @@
-// let s=document.getElementById('skills')
-// console.log(s)
 
-
-    
-//     for(let i=1;i<=7;i++)
-// {
-//     let x=document.getElementById(`skill${i}`).innerHTML
-//     console.log(x)
-// }
-
-
-console.log('hello from outside function')
 function sendMail()
 {
     console.log('in the function')
