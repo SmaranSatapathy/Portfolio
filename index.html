@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar" id="navbar" >
+        <ul>
+            <li><img src="https://cdn-icons-png.freepik.com/512/9937/9937122.png" alt="" height="20px" width="20px" onclick="lightMode()" id="darkSwitch"></li>
+            <li><img src="https://cdn.iconscout.com/icon/premium/png-256-thumb/night-mode-14-572001.png" alt="" height="20px" width="20px" onclick="darkMode()" id="lightSwitch"></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#myProjects">Projects</a></li>
+            <li><a href="#contactMe">Contact Me</a></li>
+            <li><a href="#downloadCV">Download CV</a></li>
+        </ul>
+    </div>
+    <hr>
+
+    <div class="me" id="about">
+        <div class="pic"><img src="Smaran.jpg" alt="" id="pic"></div>
+        <div class="intro">
+            <p>Hola Amigos, This is <br><b><i>Smaran</i></b> and I am passionate in <br></p>
+               <b><i> Web Developing, REACT, Javascript, Java, Python, C and Backend Developing</i></b>
+            </p>
+        </div>
+    </div>
+
+    <h1>My Projects</h1>
+    <div class="projects" id="myProjects">
+        <div class="project_card">
+            <div class="project_img"><img src="myNetflix.png" alt=""></div>
+            <div class="project_des">Netflix Home page using HTML & CSS only</div>
+            <div class="project_link"><a href="https://smaransatapathy.github.io/Netflix-Homepage/"  target="_blank">View</a></div>
+        </div>
+        <div class="project_card">
+            <div class="project_img"><img src="myConverter.png" alt=""></div>
+            <div class="project_des">A fully responsive Temperature Converter</div>
+            <div class="project_link"><a href="https://smaransatapathy.github.io/Temperature-Converter/" target="_blank">View</a></div>
+        </div>
+        <div class="project_card">
+            <div class="project_img"><img src="myMyntra.png" alt=""></div>
+            <div class="project_des">Myntra Home Page using HTML, CSS and JS</div>
+            <div class="project_link"><a href="https://smaransatapathy.github.io/Myntra-Home-Page/" target="_blank">View</a></div>
+        </div>
+    </div>
+    <!-- <div class="projects">
+        <div class="project_card">
+            <div class="project_img"><img src="https://www.marketplace.org/wp-content/uploads/2021/01/nflix.jpg?fit=2880%2C1620" alt=""></div>
+            <div class="project_des">Netflix Home page using HTML & CSS only</div>
+            <div class="project_link"><a href="">View</a></div>
+        </div>
+        <div class="project_card">
+            <div class="project_img"><img src="https://www.marketplace.org/wp-content/uploads/2021/01/nflix.jpg?fit=2880%2C1620" alt=""></div>
+            <div class="project_des">Netflix Home page using HTML & CSS only</div>
+            <div class="project_link"><a href="">View</a></div>
+        </div>
+    </div> -->
+
+    <div class="developer" id="downloadCV">
+        <div class="cv">
+            <a href="SMARAN SATAPATHY CV.pdf" download="Smaran Satapathy CV" ><button id="download">Download CV</button></a>
+        </div>
+        <div class="contact" id="contactMe">
+            <input type="text" name="name" id="name" placeholder="Enter your name">
+            <input type="email" name="mail" id="mail" placeholder="Enter a valid mail">
+            <textarea name="message" id="message" cols="60" rows="5" placeholder="Enter your message..."></textarea>
+            <button onclick="sendMail()">Contact</button>
+        </div>
+    </div>
+    <script src="script.js">
+    </script>
+</body>
+</html>
