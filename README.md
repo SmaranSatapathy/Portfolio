@@ -50,7 +50,7 @@ With a solid foundation in logic and problem-solving, I'm always looking to grow
 | Project | Description | Tech Stack | Links |
 |---------|-------------|-----------|-------|
 | **Guru Ashtra** | Full stack app for teachers to manage class students | PostgreSQL, Express.js, Node.js, React.js | [Repo](https://github.com/SmaranSatapathy/Guru-Ashtra) |
-| ![Credit Card Fraud Detection](https://www.xenonstack.com/hubfs/xenonstack-credit-card-fraud-detection.png) **Credit Card Fraud Detection** | ML project for detecting credit card fraud | Machine Learning, Python | [Repo](https://github.com/SmaranSatapathy/Credit-Card-Fraud-Detection) |
+| **Credit Card Fraud Detection** | ML project for detecting credit card fraud | Machine Learning, Python | [Repo](https://github.com/SmaranSatapathy/Credit-Card-Fraud-Detection) |
 | **Sectopedia** | Full stack app for students to access notes, communicate, and view timetables | MERN | [Repo](https://github.com/SmaranSatapathy/Sectopedia) |
 | **YouTube Clone** | YouTube clone using React state and effect | React.js | [Repo](https://github.com/SmaranSatapathy/Youtube-Clone) |
 | **Temperature Converter** | Responsive app for converting temperatures | HTML, CSS, JS | [Repo](https://github.com/SmaranSatapathy/Temperature-Converter) |
