@@ -18,7 +18,7 @@ With a solid foundation in logic and problem-solving, I'm always looking to grow
 ## 🛠️ Skills & Interests
 
 ### 💻 Programming Languages
-- ![Java](https://cdn-icons-png.flaticon.com/512/226/226777.png) **Java**
+- **Java**
 - ![Python](/images/python.png) **Python**
 - ![C++](/images/cpp.png) **C++**
 
